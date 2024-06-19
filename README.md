@@ -6,3 +6,7 @@ Uno de los objetivos princiaples es el mantener en secreto en mensaje original e
 
 iii. Cómo crees que el producto que estás creando está resolviendo sus problemas
 Lo resuelve con el hecho de mantener el secreto de una conversación de índole privacidad o información delicada entre los usuarios y con la web podrán cifrar y desifrar ese mesaje,
+
+# Organización de archivos: 
+---Carpeta assets/ que contenga sus carpetas js/, css/
+---Los archivos html se deben de encontrar dentro de la carpeta principal al mismo nivel del readme.
