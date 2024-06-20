@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encriptador de Mensajes</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
 </head>
+
 <body>
+    <video class="myVideo" src="assets/img/fondo.mp4" type="video/mp4" autoplay muted loop></video>
     <div class="container">
         <h2>Desencriptar Mensaje</h2>
         <textarea id="decrypt-input" placeholder="Introduce el mensaje encriptado..."></textarea>
-        <button id="btn__desencriptar" onclick="decryptMessage()">Desencriptar</button>
+        <a href="../views/resultado.html"><button id="btn__desencriptar" onclick="decryptMessage()">
+            Desencriptar
+        </button>
         <a href="../index.html"><button>Volver al Inicio</button></a>
     </div>
-        <!-- Aquí irán los scripts -->
-        <script src="../assets/js/script.js"></script>
-    
+    <!-- Aquí irán los scripts -->
+    <script src="../assets/js/script.js"></script>
 </body>
+
 </html>
