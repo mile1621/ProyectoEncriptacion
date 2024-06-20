@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Mensajes</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
+    <video class="myVideo" src="assets/img/fondo.mp4" type="video/mp4" autoplay muted loop></video>
     <div class="container">
         <h2>Resultado</h2>
-        <textarea id="result-output" readonly></textarea>
-        <button onclick="copyToClipboard()">Copiar Texto</button>
+        <textarea name="containertext" id="text__result" readonly></textarea>
+    
+        <button id="btn__copy" onclick="copyToClipboard()">Copiar Texto</button>
         <a href="../index.html"><button>Volver al Inicio</button></a>
     </div>
         <!-- Aquí irán los scripts -->
-        <script src="../assets/js/script.js"></script>
+        <script >src="../assets/js/script.js" </script>
+      
     
 </body>
 </html>
