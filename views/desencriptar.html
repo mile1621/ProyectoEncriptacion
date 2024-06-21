@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador de Mensajes</title>
+    <title>Desencriptador de Mensajes</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
     <div class="container">
         <h2>Desencriptar Mensaje</h2>
         <textarea id="decrypt-input" placeholder="Introduce el mensaje encriptado..."></textarea>
-        <button onclick="decryptMessage()">Desencriptar</button>
+        <button id="decrypt-button">Desencriptar</button>
         <a href="../index.html"><button>Volver al Inicio</button></a>
+        <h3>Mensaje Desencriptado</h3>
+        <p id="decrypted-output"></p>
     </div>
-        <!-- Aquí irán los scripts -->
-        <script src="../assets/js/script.js"></script>
-    
+    <!-- Aquí irán los scripts -->
+    <script src="../assets/js/desencriptar.js"></script>
 </body>
 </html>
