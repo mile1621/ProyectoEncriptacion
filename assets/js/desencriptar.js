@@ -26,7 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
         let char = encryptedMessage[i];
         if (invertedKey[char]) {
             decryptedMessage += invertedKey[char];
-        } 
+        }  else {
+            decryptedMessage += char;
+        }
     }
 
 
